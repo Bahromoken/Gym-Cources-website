@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.galery{
+    display: flex;
+    margin-left: 90px;
+
+}
+.reg{
+    text-align: center;
+    margin-top:20px;
+}
+.reg a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(31, 47, 82);
+    border-radius: 40px;
+}
+ h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: aliceblue;
+}
+body p{
+    text-align: center;
+    margin-top: 50px; 
+    opacity: 0.8;
+    font-size: 16px;
+    color: aliceblue;
+    
+}
+.box1{
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    max-width: 350px;
+    height: 480px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-left: 100px; 
+    
+    
+}
+.box1 .image{
+    transition: all 1s;
+    background: url(Gym-1.webp);
+    background-size: cover;
+    background-position: center;
+    top: 20px;
+    max-width: 310px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+     
+}
+
+.box1 p{
+    color: black;
+}
+.box1 h3{
+    margin-top: 10px;
+}
+.box1 p{
+    margin-top: 10px
+}
+.box1 a{
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.box2{
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    max-width: 350px;
+    height: 480px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-left: 60px;   
+}
+.box2 .image{
+    transition: all 1s;
+    background: url(/prepare_exam/lift.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 20px;
+    max-width: 310px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+     
+}
+.box2 p{
+    color: black;
+  }
+  .box2 h3{
+      margin-top: 10px;
+  }
+  .box2 p{
+      margin-top: 10px
+  }
+  .box2 a{
+      margin-top: 10px;
+      font-size: 20px;
+      cursor: pointer;
+  }
+.box3{
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    max-width: 350px;
+    height: 480px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-left: 60px;   
+}
+.box3 .image{
+    transition: all 1s;
+    background: url(/prepare_exam/pull.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 20px;
+    max-width: 310px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+     
+}
+.box3 p{
+    color: black;
+  }
+  .box3 h3{
+      margin-top: 10px;
+  }
+  .box3 p{
+      margin-top: 10px
+  }
+  .box3 a{
+      top: 30px;
+      font-size: 20px;
+      cursor: pointer;
+  }
+.box1 .image:hover{
+    transition: all 1s;
+    width: 350px;
+    height: 330px;
+}
+.box2 .image:hover{
+    transition: all 1s;
+    width: 350px;
+    height: 330px;
+}
+.box3 .image:hover{
+    transition: all 1s;
+    width: 350px;
+    height: 330px;
+}
